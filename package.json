@@ -1,1 +1,1 @@
-{"scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"vite":"6.4.1","react":"19.1.1","react-dom":"19.1.1","lucide-react":"0.468.0"},"devDependencies":{},"engines":{"node":">=18.0.0"}}
+{"scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"vite":"6.4.1","react":"19.1.1","react-dom":"19.1.1","lucide-react":"0.468.0","@supabase/supabase-js":"2.57.4"},"devDependencies":{},"engines":{"node":">=18.0.0"}}
