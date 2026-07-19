@@ -2,6 +2,10 @@
 
 ProjectLite is a lightweight collaborative project controls workspace for integrated scope, schedule, cost, team and change management.
 
+## Live application
+
+[Open ProjectLite](https://iipmnigeria.github.io/project_lite/)
+
 ## MVP capabilities
 
 - Workspace registration and sign-in experience
@@ -51,6 +55,8 @@ npm run build
 
 The deployable output is generated in `dist/`.
 
+Every push to `main` automatically builds and deploys the application through GitHub Actions. In the repository settings, GitHub Pages must use **GitHub Actions** as its source.
+
 ## Current MVP limitation
 
 This release is a functional front-end MVP. Demonstration data is saved in browser storage and is therefore local to each browser. Production multi-user collaboration requires the planned authentication, database, file storage, real-time events and workspace-level access-control backend.
@@ -64,4 +70,3 @@ This release is a functional front-end MVP. Demonstration data is saved in brows
 - Document storage
 - Audit events and approval history
 - Paystack, Flutterwave and Stripe subscriptions
-
