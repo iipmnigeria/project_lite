@@ -19,6 +19,7 @@ ProjectLite is a lightweight collaborative project controls workspace for integr
 - Change request assessment and approval workflow
 - Responsive desktop and mobile layouts
 - Browser-based persistence for demonstration data
+- Supabase authentication and persistent multi-project workspaces
 
 ## Run locally
 
@@ -59,7 +60,16 @@ Every push to `main` automatically builds and deploys the application through Gi
 
 ## Current MVP limitation
 
-This release is a functional front-end MVP. Demonstration data is saved in browser storage and is therefore local to each browser. Production multi-user collaboration requires the planned authentication, database, file storage, real-time events and workspace-level access-control backend.
+This release connects to Supabase for authentication, workspaces, projects, invitations and persistent project controls data. File uploads and automatic invitation emails remain planned enhancements.
+
+## Supabase database setup
+
+1. Open the Supabase project SQL Editor.
+2. Copy and run the complete [`supabase/schema.sql`](supabase/schema.sql) script once.
+3. Under Authentication URL Configuration, set the Site URL to `https://iipmnigeria.github.io/project_lite/`.
+4. Add `https://iipmnigeria.github.io/project_lite/` to Redirect URLs.
+
+The schema enables Row Level Security. Authenticated users can access only workspaces where they hold membership.
 
 ## Recommended backend stage
 
