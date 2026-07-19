@@ -13,6 +13,10 @@ ProjectLite is a lightweight collaborative project controls workspace for integr
 - Hierarchical scope and WBS register
 - WBS item creation and removal
 - Gantt-style integrated schedule
+- FS, SS, FF and SF dependencies with lead/lag
+- Critical Path Method forward and backward calculations
+- Early/late dates, total float and critical activity identification
+- Interactive Gantt, activity-on-node network diagram and CPM analysis table
 - Cost baseline, actual expenditure and variance tracking
 - Team structure, invitations and role controls
 - Project collaboration feed and file interface
