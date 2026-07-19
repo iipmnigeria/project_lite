@@ -1,0 +1,38 @@
+PROJECTLITE — QUICK START FOR WINDOWS
+=====================================
+
+1. Extract the complete ProjectLite ZIP file.
+2. Open the extracted "projectlite" folder.
+3. Double-click RUN_PROJECTLITE.bat.
+4. Approve the Node.js installation if Windows requests permission.
+5. ProjectLite will install its components and open in your browser.
+
+The browser opens only after the ProjectLite server has started successfully.
+
+DEMO SIGN-IN
+Email: demo@projectlite.app
+Password: project123
+
+FIRST RUN
+An internet connection is required the first time. The launcher checks whether
+Node.js is available. If it is missing, it tries to install Node.js LTS using
+Windows Package Manager. If that service is unavailable, the official Node.js
+download page opens and the launcher waits for you to complete installation.
+ProjectLite uses dependency versions compatible with Node.js 18 and later,
+including Node.js 22.11.
+
+LATER USE
+Double-click RUN_PROJECTLITE.bat again. Installed components are reused, so the
+application should start more quickly.
+
+STOPPING THE APP
+Close the browser tab and press Ctrl+C in the ProjectLite launcher window.
+
+IF THE BROWSER SAYS "LOCALHOST REFUSED TO CONNECT"
+Keep the ProjectLite launcher window open and read the error displayed there.
+Do not close that black/blue window while using the app. If Windows Firewall
+asks whether Node.js may communicate on private networks, select Allow access.
+
+IMPORTANT
+This MVP stores demonstration data in the browser on the computer where it is
+run. It is not yet connected to the production multi-user database.
